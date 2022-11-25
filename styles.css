@@ -1,0 +1,39 @@
+:root{
+
+    --footerAndHero:#1F2937;
+}
+body{
+    margin: 0;
+}
+
+.hero{
+    background-color: var(--footerAndHero);
+    color: #F9FAF8;
+    padding: 0 6rem 6rem 6rem;
+    
+
+}
+.logo{
+
+    margin: 4px solid red;
+}
+.nav-links{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    
+    
+}
+.nav-links > *{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+.hero-text{
+   font-size: 48px;
+   font-weight: bolder;
+}
+.hero-secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
