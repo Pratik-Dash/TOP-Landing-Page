@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Roboto+Slab:wght@100;200;400;600&display=swap');
 :root{
 
     --footerAndHero:#1F2937;
 }
 body{
     margin: 0;
+    font-family: 'Roboto Slab', serif;
+
    
 }
 .section1{
@@ -26,6 +29,7 @@ body{
     font-weight: 900;
     font-size: 25px;
     color: #E5E7EB;
+    font-family: 'Fondamento', cursive;
 }
 .nav-links{
     margin: 0;
@@ -56,6 +60,9 @@ body{
     font-size: 18px;
     color: #E5E7EB;
 }
+.link-item{
+    cursor: pointer;
+}
 .hero-landscape-img{
 
     width: 35rem;
@@ -65,6 +72,7 @@ body{
     
    
 }
+
 .signup{
     width: 20%;
    
@@ -76,6 +84,98 @@ body{
     background-color: #3882F6;
     cursor: pointer;
     border-color: transparent;
+}
+
+.section2{
+    text-align: center;
+    color: #1F2937;
+    margin-bottom: 2rem;
+}
+.item{
+    border: 4px solid #3882F6;
+    display:inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 1rem;
+    border-radius: 1rem;
+    
+}
+.item-image{
+    height: 100%;
+    width: 100%;
+    border-radius: .9rem;
+}
+.section3{
+    background-color: #E5E7EB;
+    padding: 2rem;
+    text-align: center;
+}
+.quote{
+    
+    font-size: 36px;
+    color: #1F2937;
+    padding: 3rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+.credit{
+    position: relative;
+    left: 400px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.section4{
+   
+    text-align: center;
+    
+}
+.action-container{
+    background-color: #3882F6;
+    padding: 3rem;
+    max-width: 75%;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    
+}
+.action-container{
+    display: flex;
+    justify-content: space-between;
+}
+.primary-text{
+    font-size: 28px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    text-align: left;
+}
+.subtext{
+    text-align: left;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+.signup2{
+    width: 16%;
+    padding: .2rem;
+    border-radius: .6rem;
+    border: 3px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: medium;
+    cursor: pointer;
+}
+.section5{
+    background-color: var(--footerAndHero);
+    padding: 3rem;
+    color: #e5e7eba9;
+}
+.social-links{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-inline-start: 0;
+    cursor: pointer;
 }
 
 
